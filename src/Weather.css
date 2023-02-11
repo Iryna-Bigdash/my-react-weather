@@ -38,13 +38,15 @@
 .Weather img{
     height: 64px;
     width: 64px;
-    margin-right: 10px;
     display: inline-block;
+    margin-bottom: 30px;
+    height: 120px;
+    width: 120px;
 }
 .temperature {
     color: rgb(74, 29, 116);
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 58px;
+    line-height: 58px;
     font-weight: 400px;
 }
 .unit {
