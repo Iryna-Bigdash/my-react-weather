@@ -10,7 +10,7 @@ export default function App() {
 
       <Weather defaultCity="New York" />
       <footer>
-        <p>This project is creaded by <a href="https://iryna-bigdash.github.io/my-react-weather/" target="blank">Iryna Bigdash</a>
+        <p>This project is creaded by <a href="https://github.com/Iryna-Bigdash/my-react-weather" target="blank">Iryna Bigdash</a>
       </p>
       </footer>
 
