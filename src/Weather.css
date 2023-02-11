@@ -20,7 +20,11 @@
     color:rgb(162, 90, 229);
     font-weight: 400;
     font-size: 24;
-    line-height: 29px;
+    line-height: 25px;
+}
+.Weather p {
+    color:rgb(125, 79, 168);
+    font-size: 20;
 }
 .Weather ul {
   list-style: none; 
@@ -49,8 +53,4 @@
     font-weight: 400px;
     position: relative;
     top:-34px;
-    margin-left: 5px;
-
-
-
 }
