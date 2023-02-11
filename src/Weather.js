@@ -19,7 +19,6 @@ city: response.data.city,
 country: response.data.country,
 description: response.data.condition.description,
 iconUrl: response.data.condition.icon_url,
-date: 'Wensday 7:00',
 date: new Date(response.data.time * 1000),
 
     })
