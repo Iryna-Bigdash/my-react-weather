@@ -24,5 +24,6 @@ export default function FormattedDay(props)
         <div>
            {day} {hours}:{minutes}
         </div>
-    );
+    )
+  
 };

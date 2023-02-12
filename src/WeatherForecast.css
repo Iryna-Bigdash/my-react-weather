@@ -1,0 +1,15 @@
+.WeatherForecast {
+    outline: 1px solid red;
+}
+.WeatherForecast-list {
+    text-align: center;
+}
+.WeatherForecastTemperature-min {
+    opacity: 0.6;
+    margin-left: 5px;
+}
+.WeatherForecastIcon {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}

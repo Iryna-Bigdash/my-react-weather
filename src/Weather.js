@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "./Weather.css";
 
@@ -9,9 +10,10 @@ const [weatherData, setweatherData] = useState({ ready:false });
 const [city, setCity] = useState(props.defaultCity);
 
 function handleResponse (response){
-    console.log(response.data);
+    // console.log(response.data);
     setweatherData({
 ready: true,
+coordinates: response.data.coordinates,
 temperature: response.data.temperature.current,
 humidity: response.data.temperature.humidity,
 wind: response.data.wind.speed,
@@ -61,6 +63,7 @@ if (weatherData.ready) {
                 </div>
             </form>
             < WeatherInfo data={weatherData}/>
+            < WeatherForecast coordinates={weatherData.coordinates} />
         </div>
         )
 } else {

@@ -9,7 +9,7 @@ return (
     <h1>{props.data.city}</h1>
     <p>{props.data.country}</p>
     <ul>
-      <li><FormattedDay date={props.data.date}/></li>
+      <li><FormattedDay date={props.data.date} /></li>
       <li className="text-capitalize">{props.data.description}</li>
     </ul>
     <div className="row mt-3">
@@ -17,7 +17,7 @@ return (
           <div className="clearfix">
           <img src={props.data.iconUrl}
           alt={props.data.description} 
-          className="float-left" 
+          className="float-left main-icon" 
          />
          <WeatherTemperature celsius={props.data.temperature} />
       </div>

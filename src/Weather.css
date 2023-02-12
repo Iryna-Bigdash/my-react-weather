@@ -35,7 +35,7 @@
     color: rgb(115, 81, 147);
     font-size: 18;
 }
-.Weather img{
+.Weather .main-icon{
     height: 64px;
     width: 64px;
     display: inline-block;
