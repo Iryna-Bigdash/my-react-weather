@@ -12,9 +12,15 @@
     border-color: blueviolet;
     outline-color: rgb(198, 143, 249);
 }
+.Weather .btn {
+background: rgb(198, 143, 249);
+}
 .form-conrtol {
     min-width: 400px;
-    color: rgb(85, 24, 143);
+    outline-color: rgb(198, 143, 249);
+}
+::placeholder{
+    color: rgb(198, 143, 249);
 }
 .Weather h1 {
     color:rgb(162, 90, 229);
@@ -25,21 +31,35 @@
 .Weather p {
     color:rgb(125, 79, 168);
     font-size: 20;
+    margin-bottom: 0px;
 }
 .Weather ul {
-  list-style: none; 
   padding: 0; 
-  margin-left: 10px;
+  list-style: none;
+}
+.Weather .list-decoration {
+list-style: circle;
 }
 .Weather li {
     color: rgb(115, 81, 147);
     font-size: 18;
 }
+.flex-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px; 
+}
+.clearfix {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
 .Weather .main-icon{
     height: 64px;
     width: 64px;
     display: inline-block;
-    margin-bottom: 30px;
     height: 120px;
     width: 120px;
 }
@@ -55,4 +75,7 @@
     font-weight: 400px;
     position: relative;
     top:-34px;
+}
+.WeatherInfo ul {
+    list-style:disc;  
 }

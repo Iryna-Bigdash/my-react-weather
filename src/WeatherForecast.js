@@ -16,13 +16,9 @@ export default function WeatherForecast(props){
     function hendleResponse(response){
         setForecast(response.data.daily);
         setLoaded(true);
-// console.log(response.data);
-// console.log(props);
-console.log(response.data.daily);
     }
 
 if(loaded) {
-   console.log(forecast);
     return (
         <div className="WeatherForecast">
             <div className="row">
